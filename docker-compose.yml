@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  web:
+    image: my-web-app:latest
+    container_name: my-web-app-compose
+    ports:
+      - "8080:80"
